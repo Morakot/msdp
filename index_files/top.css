@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+/*页眉*/
+#banner_wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+#banner a {
+	display: inline-block;
+	height: 58px;
+	line-height: 58px;
+	color: #C8DFDD;
+	vertical-align: middle;
+}
+
+#banner .banner_pic {
+	margin: 0 10px;
+}
+
+#banner_logo {
+	float: left;
+}
+
+#banner_tel {
+	float: right;
+	cursor: default;
+}
+
+#banner ul {
+	list-style: none;
+	overflow: hidden;
+	text-align: center;
+}
+
+#banner li {
+	float: left;
+	list-style: none;
+}
+
+#banner li a {
+	display: block;
+	padding: 0 12px;
+	color: #fefefe;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#banner li a:hover {
+	cursor: pointer;
+	background: #10aDa6;
+}
+
+@MEDIA screen and (max-width:542px) { /*一行容不下商标和电话时*/
+	#banner .banner_pic {
+		display: block;
+		margin: 0 auto;
+		padding: 0 10px;
+		float: none;
+	}
+	#banner #banner_logo {
+		width: 277px;
+	}
+	#banner #banner_tel {
+		width: 112px;
+		height: 29px;
+	}
+}
+
+@MEDIA screen and (max-width:400px) { /*菜单竖排*/
+	#banner ul {
+		float: none;
+	}
+	#banner li {
+		float: none;
+	}
+}
+/*简介*/
+/* #introduction div p {
+	text-indent: 30px;
+} */
+
+/*展示假山工程*/
+#gallery li {
+	margin: 5px;
+	list-style: none;
+	display: inline-block;
+	width: 300px;
+	height: 133px;
+	position: relative;
+	letter-spacing: normal;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#gallery li div {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #ccc;
+	background: rgba(200, 200, 200, 0.8);
+	position: absolute;
+	bottom: -30px;
+}
+
+/*联系美森园林*/
+#contact_us p+p+p {
+	margin: 15px;
+	letter-spacing: 1px;
+	color: #656565;
+}
+
+/*留言*/
+#contact td {
+	padding: 3px;
+}
+
+#contact input,#contact textarea {
+	background: #f3f3f3;
+	border: none;
+	width: 100%;
+}
+
+#contact table div {
+	border: solid 1px #ADADAD;
+	padding: 10px;
+}
+
+#contact textarea {
+	height: 218px;
+}
+
+#contact button {
+	height: 50px;
+	width: 130px;
+	border: none;
+	border-radius: 10px;
+	font-size: 15px;
+	margin: 0 7px;
+}
+
+#contact button:hover {
+	cursor: pointer;
+}

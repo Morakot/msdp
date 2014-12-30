@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*留言*/
+#contact td {
+	padding: 3px;
+}
+
+#contact input,#contact textarea {
+	background: #f3f3f3;
+	border: none;
+	width: 100%;
+}
+
+#contact table div {
+	border: solid 1px #ADADAD;
+	padding: 10px;
+}
+
+#contact textarea {
+	height: 218px;
+}
+
+#contact button {
+	height: 50px;
+	width: 130px;
+	border: none;
+	border-radius: 10px;
+	font-size: 15px;
+	margin: 0 7px;
+}
+
+#contact button:hover {
+	cursor: pointer;
+}
