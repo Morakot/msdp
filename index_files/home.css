@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	vertical-align: middle;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+}
+
+p.topic {
+	font-size: 18px;
+	line-height: 120px;
+	letter-spacing: 2px;
+	color: #555;
+	text-align: center;
+}
+
+p.topic img {
+	margin-right: 20px;
+}
+
+p.slogan {
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 50px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+#alert {
+	max-width: 100%;
+}
+
+.uk-modal-dialog {
+	width: auto;
+	display: table;
+}
+
+}
+
+/*轮播*/
+#rahmen {
+	
+}
+
+#cover ul li {
+	float: left;
+	padding: 0 10px;
+	background: url("/meisens/common/images/unselected.png") no-repeat
+		center;
+}
+
+#cover ul li a {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+}
+
+#cover .cover_switcher {
+	/* margin-top: 230px; */
+	position: absolute;
+	top: 50%;
+	width: 10%;
+	max-width: 110px;
+	min-width: 50px;
+}
+
+#cover .cover_switcher:hover {
+	background: #ccc;
+	background: rgba(200, 200, 200, 0.3);
+}
+
+#cover table td {
+	border: transparent solid 25px;
+}
+
+#cover table td img {
+	width: 166px;
+	height: 102px;
+}
+
+/*  */
+div.topic {
+	display: none;
+}
+
+/*简介*/
+/* #introduction div p {
+	text-indent: 30px;
+} */
+
+/*展示假山工程*/
+#gallery li {
+	margin: 5px;
+	list-style: none;
+	display: inline-block;
+	width: 300px;
+	height: 133px;
+	position: relative;
+	letter-spacing: normal;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#gallery li div {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #ccc;
+	background: rgba(200, 200, 200, 0.8);
+	position: absolute;
+	bottom: -30px;
+}
+
+/*联系美森园林*/
+#contact_us p+p+p {
+	margin: 15px;
+	letter-spacing: 1px;
+	color: #656565;
+}
+
+/*留言*/
+#contact td {
+	padding: 3px;
+}
+
+#contact input,#contact textarea {
+	background: #f3f3f3;
+	border: none;
+	width: 100%;
+}
+
+#contact table div {
+	border: solid 1px #ADADAD;
+	padding: 10px;
+}
+
+#contact textarea {
+	height: 218px;
+}
+
+#contact button {
+	height: 50px;
+	width: 130px;
+	border: none;
+	border-radius: 10px;
+	font-size: 15px;
+	margin: 0 7px;
+}
+
+#contact button:hover {
+	cursor: pointer;
+}
